@@ -43,7 +43,7 @@ jobs:
       - name: Build with mdBook
         run: mdbook build
         env:
-          MDBOOK_OUTPUT__HTML__SITE_URL: tmc-technical-stuff
+          MDBOOK_OUTPUT__HTML__SITE_URL: rando-doc
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
