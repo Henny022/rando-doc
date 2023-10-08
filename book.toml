@@ -10,4 +10,4 @@ create-missing = false
 
 [output.html]
 git-repository-url = "https://github.com/Henny022/rando-doc"
-edit-url-template = "https://github.com/Henny022/rando-doc/edit/main/guide/{path}"
+edit-url-template = "https://github.com/Henny022/rando-doc/edit/main/{path}"
